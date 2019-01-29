@@ -1,19 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        android:layout_height="match_parent">
 
-    <TextView
-            android:layout_width="wrap_content"
+    <TableLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            android:layout_margin="8dp"
+            android:shrinkColumns="0"
+            android:stretchColumns="0">
 
-</android.support.constraint.ConstraintLayout>
+        <TableRow>
+
+            <TextView
+                    style="@style/TextoTabla.Titulo"
+                    android:text="@string/eti_localizacion"/>
+
+            <TextView
+                    android:id="@+id/location_value"
+                    style="@style/TextoTabla.Valor"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    style="@style/TextoTabla.Titulo"
+                    android:text="@string/eti_camara"/>
+
+            <TextView
+                    android:id="@+id/camera_value"
+                    style="@style/TextoTabla.Valor"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    style="@style/TextoTabla.Titulo"
+                    android:text="@string/eti_internet"/>
+
+            <TextView
+                    android:id="@+id/internet_value"
+                    style="@style/TextoTabla.Valor"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    style="@style/TextoTabla.Titulo"
+                    android:text="@string/eti_contactos"/>
+
+            <TextView
+                    android:id="@+id/contacts_value"
+                    style="@style/TextoTabla.Valor"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                    style="@style/TextoTabla.Titulo"
+                    android:text="@string/eti_almacenamiento"/>
+
+            <TextView
+                    android:id="@+id/storage_value"
+                    style="@style/TextoTabla.Valor"/>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

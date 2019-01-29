@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">E_7_1_Gestor de Permisos M+</string>
+    <string name="eti_localizacion">ACCES_FINDE_LOCATION</string>
+    <string name="eti_camara">CAMERA</string>
+    <string name="eti_internet">INTERNET</string>
+    <string name="eti_contactos">READ_CONTACTS</string>
+    <string name="eti_almacenamiento">WRITE_EXTERNAL_STORAGE</string>
+    <string name="toast_error">Error</string>
+    <string name="toast_camara">Camera</string>
+    <string name="toast_contactos">Contactos</string>
+    <string name="toast_localizacion">Localizacion</string>
+    <string name="menu_camara">Camara</string>
+    <string name="menu_contactos">Contactos</string>
+    <string name="menu_localizacion">Localización</string>
 </resources>

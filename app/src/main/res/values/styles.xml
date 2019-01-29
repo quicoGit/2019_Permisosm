@@ -8,4 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextoTabla">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="TextoTabla.Titulo">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextoTabla.Valor">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+
 </resources>
